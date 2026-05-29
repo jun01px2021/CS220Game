@@ -1,6 +1,7 @@
 module CS220Game.Program
 
 open System
+open CS220Game.Board
 
 type GameMode =
     | Twos
