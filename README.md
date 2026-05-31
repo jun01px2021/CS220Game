@@ -1,4 +1,3 @@
 # CS220Game
-A repository for my term project, CS220
 
-I will upload files here in the future. 
+The game has been completed. You can now clone this repository and type "dotnet run" to play the game. 
