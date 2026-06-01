@@ -108,7 +108,7 @@ After each valid move:
 
 ---
 
-## Game Modes
+## Details and Logistics of Each Game Mode
 
 ## 1. 2's Mode
 
