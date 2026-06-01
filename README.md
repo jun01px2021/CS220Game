@@ -117,7 +117,7 @@ After each valid move:
 ```text
 Game Name: 2048 (2's)
 Board Size: 4 x 4
-Goal: 2048
+Goal: To have a tile with number "2048" on the board.
 ```
 
 ### Spawn Rule
@@ -165,7 +165,7 @@ The player loses when the board is full and no valid moves remain.
 ```text
 Game Name: 2187 (3's)
 Board Size: 6 x 6
-Goal: 2187
+Goal: To have a tile with number "2187" on the board.
 ```
 
 ### Spawn Rule
@@ -213,7 +213,7 @@ The player loses when the board is full and no valid triple merges remain.
 ```text
 Game Name: 2584 (Fibonacci)
 Board Size: 4 x 4
-Goal: 2584
+Goal: To have a tile with number "2584" on the board.
 ```
 
 ### Spawn Rule
@@ -262,7 +262,7 @@ The player loses when the board is full and no valid Fibonacci merges remain.
 ```text
 Game Name: 199 (Prime)
 Board Size: 5 x 5
-Goal: 199
+Goal: To have a tile with number "199" on the board.
 ```
 
 ### Spawn Rule
@@ -419,9 +419,7 @@ The game repeats this process until the player wins, loses, or presses `Q`.
 
 ---
 
-## Notes for Peer Evaluation
-
-When evaluating this project, please check the following:
+## Final Remarks / Notes for Peer Evaluation!
 
 1. The project runs using `dotnet run`.
 2. The game mode selection screen appears.
@@ -432,3 +430,7 @@ When evaluating this project, please check the following:
 7. New tiles spawn after valid moves.
 8. The game detects win and lose conditions.
 9. Pressing `Q` exits the game.
+
+## LLM Usage
+
+For this project, I use
