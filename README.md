@@ -431,11 +431,9 @@ The game repeats this process until the player wins, loses, or presses `Q`.
 
 ## LLM Usage
 
-I completed this project with the help of ChatGPT, a widely known LLM. Seeing the similarities of each gamemode variant, I decided to create four variants of 2048 instead of only implementing the original version. I also designed the rules for each game mode, including the 2's mode, 3's mode, Fibonacci mode, and Prime mode. The rules for the first three gamemodes were referred from other websites, whereas the last was my own creation. 
+I completed this project with the help of ChatGPT, a widely known LLM. I used ChatGPT mainly as a programming assistant while implementing and polishing the project. Specifically, I used it to help with parts such as formatting the board output in the terminal, improving the game screen text, organizing some helper functions, and implementing the Fibonacci mode logic. 
 
-I also planned the overall structure of the project, including the idea of separating the board-related logic into a separate `Board.fs` file. My goal was to define a common movement system that could be shared by all four game modes, while allowing each mode to have its own merge rule, spawn rule, board size, and win condition. This would allow me to use the concepts I learned in class.
-
-I used ChatGPT mainly as a programming assistant while implementing and polishing the project. Specifically, I used it to help with parts such as formatting the board output in the terminal, improving the game screen text, organizing some helper functions, and implementing the Fibonacci mode logic. I also used it to check whether the project structure and README instructions were clear enough for peer evaluation.
+One problem I had while using ChatGPT was that it allowed moves that should not be allowed. In this game, pressing the arrow key, aka "moving" is only allowed when there are tiles available for merging. However, after I tried to move in a direction where there would be no available tiles to merge, the game would still spawn a tile as if a move occurred, although the move should not have been allowed. I fixed this within Program.fs.
 
 Overall, the design direction and major gameplay ideas were decided and implemented by me, while ChatGPT was used as a support tool for debugging, code organization, and documentation polishing.
 
