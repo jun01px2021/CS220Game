@@ -25,23 +25,11 @@ This project assumes that `.NET` is already installed.
 
 ### Step 1. Clone the Repository
 
-Open a terminal and run:
-
-```bash
-git clone https://github.com/jun01px2021/CS220Game.git
-```
-
-Then move into the project folder:
-
-```bash
-cd CS220Game
-```
-
----
+Use your terminal to clone the repository to your local machine.
 
 ### Step 2. Check the Project Files
 
-The folder should contain these main files:
+Once downloaded, the repository folder should contain these main files:
 
 ```text
 CS220Game.fsproj
@@ -54,21 +42,13 @@ README.md
 * `Board.fs` contains the board engine, movement logic, tile spawning, and board printing.
 * `Program.fs` contains the game modes, merge rules, score system, input handling, win/lose conditions, and main game loop.
 
----
-
 ### Step 3. Run the Game
 
-Run the following command:
-
-```bash
-dotnet run
-```
-
----
+Run the game by typing "dotnet run" in console.  
 
 ## What You Will See First
 
-After running `dotnet run`, the terminal will show the game mode selection screen:
+After running `dotnet run`, the terminal will show the game mode selection text, with the following:
 
 ```text
 Multi-Mode 2048
@@ -80,15 +60,7 @@ Choose a game mode:
 Enter 1, 2, 3, or 4:
 ```
 
-Enter one of the numbers `1`, `2`, `3`, or `4` and press Enter.
-
-For example, entering:
-
-```text
-1
-```
-
-starts **2's Mode**.
+Then, you should enter one of the numbers `1`, `2`, `3`, or `4` and press Enter. The game will run the corresponding mode for you. For example, entering "1" will start **2's Mode**.
 
 ---
 
