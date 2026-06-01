@@ -1,6 +1,4 @@
-# CS220Game
-
-**Project Title: 2048! Multi-mode Variants**
+# Project Title: 2048! Multi-mode Variants
 
 ## Overview
 
