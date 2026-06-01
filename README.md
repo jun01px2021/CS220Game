@@ -21,7 +21,7 @@ The goal is to reach the target number of the selected mode before the board bec
 
 ## How to Run
 
-This project assumes that `.NET` is already installed.
+This project assumes that you can already install and run .NET!
 
 ### Step 1. Clone the Repository
 
