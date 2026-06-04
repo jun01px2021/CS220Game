@@ -429,6 +429,8 @@ The game repeats this process until the player wins, loses, or presses `Q`.
 8. The game detects win and lose conditions.
 9. Pressing `Q` exits the game.
 
+CHANGES: The spawn rate has changed from the original plan due to balance patching. 
+
 ## LLM Usage
 
 I completed this project with the help of ChatGPT, a widely known LLM. I used ChatGPT mainly as a programming assistant while implementing and polishing the project. Specifically, I used it to help with parts such as formatting the board output in the terminal, improving the game screen text, organizing some helper functions, and implementing the Fibonacci mode logic. 
